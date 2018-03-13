@@ -1,0 +1,47 @@
+body{
+	background-color: #dfe3ee !important;
+}
+.container{
+	width: 40%;
+	height: 30%;
+	margin-left: 30%;
+	margin-top: -5%;
+	background-color: white;
+	border: 1px solid #808080;
+	border-radius: 5px;
+}
+.container h1{
+	font-family: helvetica;
+	text-align: left;
+	font-size: 17px;
+	padding: 10px 10px 10px 10px;
+	color: #3b5998;
+}
+.container h4{
+	font-family: arial;
+	color: #666666;
+	font-size: 12px;
+	padding: 10px 10px 10px 10px;
+}
+.container input{
+	width: 50%;
+	height: 20%;
+	margin-left: 20%;
+	font-style: italic;
+	border-radius: 5px;
+	border: 1px solid #f3f3f3;
+	background-color: white;
+}
+.container button{
+	width: 25%;
+	height: 20%;
+	margin-left: 74%;
+	margin-top: -10px;
+	background-color: #3b5998;
+	color: white;
+	font-family: cursive;
+	border: 1px solid #f3f3f3;
+	border-radius: 10px;
+	cursor: pointer;
+
+}

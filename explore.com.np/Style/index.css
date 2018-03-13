@@ -1,0 +1,102 @@
+.container{
+	width: 100%;
+	height: 100%;
+	background-color: #fffcff;
+	min-height: 610px;
+	min-width: 1350px;
+}
+.container .sign-in{
+	width: 100%;
+	height: 17%;
+	background-color: #3b5998;
+	text-align: right;
+}
+.container .sign-in .sign-in-form {
+	width: 30%;
+	background-color: #3b5998;
+	float: right;
+	margin-right: 140px;
+}
+.container .sign-in .sign-in-form input{
+	border: 1px solid black;
+	width: 40%;
+	height: 20%;
+}
+.container .sign-in .sign-in-form input:focus{
+	outline: none;
+}
+.container .sign-in .sign-in-form h4{
+	margin-right: 140px;
+	font-family: helvetica;
+	font-size: 15px;
+	color: white;
+	font-style: italic;
+}
+.container .sign-in .sign-in-form a{
+	text-decoration: none;
+	margin-right: 90px;
+	font-family: calibri;
+	font-size: 15px;
+}
+.container .sign-in .sign-in-form button{
+	width: 70px;
+	height: 25px;
+	background-color: skyblue;
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+}
+.container .sign-in h1{
+	display: inline-block;
+	float: left;
+	margin-left: 160px;
+	font-family: helvetica;
+	color: white;
+	font-size: 50px;
+	margin-bottom: 30px;
+	font-style: italic;
+}
+.container .sign-up {
+	width: 100%;
+	background-color: #f7f7ff;
+	height: 80%;
+}
+.container .sign-up img {
+	float: left;
+	opacity: 0.75;
+	height: 100%;
+}
+
+.container .sign-up .sign-up-form h1{
+	font-family: arial;
+	color: grey;
+}
+.container .sign-up .sign-up-form input .name{
+	width: 10%;
+}
+.container .sign-up .sign-up-form input{
+	width: 20%;
+	height: 7%;
+	border-radius: 3.5px;
+	border: 1px solid gray;
+	background-color: white;
+	margin-bottom: 3px;
+}
+.container .sign-up .sign-up-form #radio{
+	width: 30px;
+	height: 10px;
+} 
+.container .sign-up .sign-up-form button{
+	background-color: #00ff01;
+	width: 10%;
+	height: 7%;
+	margin-top: 10px;
+	border: 0.5px solid #f3f3f3;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+}
+.container .sign-up .sign-up-form button:hover{
+	background-color: limegreen;
+}
+

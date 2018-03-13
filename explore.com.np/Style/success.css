@@ -1,0 +1,50 @@
+body{
+	background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5b4fbb10642875.560e86a94edbe.jpg");
+}
+.container{
+	width: 50%;
+	background-color: white;
+	height: 60%;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+.container h3{
+	color: #3b5998;
+	font-family: helvetica;
+	text-align: center;
+}
+.container h4{
+	color: green;
+	font-family: helvetica;
+	text-align: center;
+}
+.container a button h5{
+	color: white;
+	font-family: helvetica;
+	text-align: center;
+	text-decoration: none;
+}
+.container a button h5:hover{
+	color: grey;
+}
+.container a button{
+	margin-left: 150px;
+	background-color: #3b5998;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+}
+.container #endInfo{
+	width: 100px;
+	height: 100px;
+	background-color: #3b5998;
+	border-radius: 100px;
+	margin-left: 270px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	font-family: cursive;
+}
+.container #endInfo:hover{
+	color: orange;
+}

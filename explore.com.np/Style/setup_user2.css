@@ -1,0 +1,98 @@
+body{
+	background-color: #696969 !important;
+	background-image: url("http://spiritoria.com/wp-content/uploads/2016/05/explore-logo.gif");
+}
+.slide2{
+	width: 50%;
+	background-color: #fffcff;
+	top: 0;
+	bottom: 0;
+	margin: 0 auto;
+	height: 60%;
+	margin-top: 20px;
+}
+.slide2 h4{
+	color: #3b5998;
+	font-family: helvetica;
+	font-style: italic;
+	display: inline-block;
+	margin-left: 20px;
+}
+.slide2 h3{
+	color: grey;
+	font-family: cursive;
+	font-style: italic;
+	display: inline-block;
+	font-size: 13px;
+	margin-left: 20px;
+}
+.slide2 textarea{
+	width: 80%;
+	height: 50%;
+	color: #3b5998;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 60px;
+}
+.slide2 h5{
+	color: #3b5998;
+	font-family: helvetica;
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.slide2 #select{
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	margin-top: -65px;
+	border-radius: 5px;
+	background-color: #fffcff;
+	font-family: helvetica;
+	text-align: center;
+	color: blue;
+}
+.slide2 button{
+	width: 30%;
+	height: 50px;
+	margin-left: 35%;
+	background-color: #3b5998;
+	border-radius: 20px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+.done{
+	width: 100%;
+	background-color: #228b22;
+	height: 10%;
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+.done  #close{
+	display: inline-block;
+	margin-left: 97%;
+	color: black;
+	font-size: 15px;
+	cursor: pointer;
+}
+.error{
+	width: 100%;
+	background-color: #cd0000;
+	height: 10%;
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+.error #close{
+	display: inline-block;
+	margin-left: 97%;
+	color: black;
+	font-size: 15px;
+	cursor: pointer;
+}

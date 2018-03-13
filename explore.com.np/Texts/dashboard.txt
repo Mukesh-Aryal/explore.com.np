@@ -1,0 +1,40 @@
+<?php
+require 'backbone.php';
+require 'functionalities.php';
+require 'header.php';
+require 'me.php';
+require 'post.php';
+
+
+
+
+
+
+ 
+   $connection = mysqli_connect($server_name, $database_username, $database_password, $database_name);
+   if(!$connection){
+	  die("Couldn't connect to the server!");
+	  header("Location: home.php");
+    }else{
+	  $sql = "SELECT * FROM explore_users_posts";
+	  $result = mysqli_query($connection, $sql);
+	  $array = array();
+	  if(mysqli_num_rows($result) > 0){
+	  while($row = mysqli_fetch_assoc($result)){
+	  $array[] = $row;
+      }
+      for($i=0;$i<mysqli_num_rows($result);$i++){
+      showPosts($array[$i]['author'], $array[$i]['title'], $array[$i]['date'], $array[$i]['body'], $array[$i]['type'], $array[$i]['id']);
+      }
+    }else{
+    	echo "<img src=\"../Images/direction_towards_your_first_post.png\" alt=\"Go, Post yours Now!!!\" height=\"20px\" width=\"40px\" >";
+    }
+}
+
+
+
+
+
+
+
+?>

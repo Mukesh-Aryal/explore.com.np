@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One');
+body{
+    background-color: #e9ebee !important;
+    width: 100%;
+}
+.container{
+    width: 98%;
+    height: 40px;
+    background-color: #4267b2;
+    float: right;
+    position: fixed;
+}
+.container .logo{
+    background-color: #ffffff;
+    width: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+}
+.container .logo i{
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+}
+.container .search-container{
+    width: 40%;
+    height: 30px;
+    margin-top: -25px;
+    margin-left: 45px;
+}
+.container .search-container input{
+    width: 90%;
+    position: relative;
+    height: 80%;
+    border-top-right-radius: 0px;
+    border: none;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+}
+.container .search-container button{
+    width: 7%;
+    height: 84%;
+    border: none;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.container .user-container{
+    width: 3%;
+    height: 80%;
+    margin-left: 600px;
+    margin-top: -30px;
+    border-radius: 20px;
+    background-color: #4267b2;
+}
+.container .user-container img{
+    border-radius: 50%;
+}
+.container .user-name{
+    width: 10%;
+    margin-left: 645px;
+    display: block;
+    margin-top: -25px;
+    font-family: helvetica;
+    color: white;
+}
+.container .nav-bar{
+    margin-left: 740px;
+    display: block;
+    margin-top: -23px;
+    font-family: helvetica;
+    width: 25%;
+    height: 65%;
+    border-left: 1px solid #3b5ca0;
+    border-right: 1px solid #3b5ca0;
+}
+.container .nav-bar b a{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.container .nav-bar a{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+.container .nav-bar a i{
+    color: #1a2947;
+    font-size: 20px;
+}
+
+
+
